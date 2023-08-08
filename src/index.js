@@ -1,3 +1,6 @@
-module.exports = function toReadable (number) {
+
+it('Should return \'number\' when number given', () => {
+    const readable = toReadable(number);
   
-}
+    assert.equal(readable, 'number');
+  });
